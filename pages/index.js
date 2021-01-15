@@ -31,7 +31,7 @@ class CampaignIndex extends Component {
     render() {
         return (
         <Layout>
-            <div>
+            
                 
             <h3>Open Campaigns</h3>
             
@@ -45,7 +45,7 @@ class CampaignIndex extends Component {
             
             {this.renderCampaigns()}
             
-                </div>
+            
             </Layout>
         );
     }
